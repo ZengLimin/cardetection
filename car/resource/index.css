@@ -1,0 +1,498 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+/**除首页以外的所有框架的CSS***/
+
+body{
+	margin:0px; 
+	font-size:12px;
+	font-family:Arial,宋体;
+	background: url(../images/bodybg2.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/bodybg2.png*/ repeat-x #ffffff;
+	color:#000000;
+	
+	}
+	
+  /*去掉点击虚线框*/
+/*a{ blur:expression(this.blur());}针对 IE*/
+/*a { outline:none; } 针对firefox等*/
+
+select,input{font-size:12px;}
+td{font-size:12px;}	
+img{border:0px;}	
+
+input,select{font-size:12px;}
+
+A:link {	COLOR: #333333; TEXT-DECORATION: underline}
+A:hover {	COLOR: #ff6600; TEXT-DECORATION: underline}
+A:visited {	COLOR: #333333; TEXT-DECORATION: underline}	
+	
+.hand{cursor:pointer;}	
+#main{width:1002px; background:#ffffff; margin:0 auto;}
+.header{width:100%; height:300px; border-bottom:2px solid #009ff0;}
+.header02{width:100%; /*height:158px;*/ height:120px; border-bottom:2px solid #009ff0;}
+#footer{width:100%; /*height:135px;margin-bottom:10px; margin-top:10px;*/}
+.topspace{width:100%; height:5px; overflow:hidden; clear:both;}
+
+.clear{width:100%; height:1px; overflow:hidden; clear:both;}
+
+.mtable{margin-top:5px;}
+
+.top_header03{width:1002px;height:18px;text-align:center;padding-top:3px;}
+
+.usermsg{  color:#FFFFFF; background: url(../images/nav3.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/nav3.gif*/ repeat-x #038cdc; 
+width:100%; height:34px; line-height:34px;  overflow:hidden; margin-bottom:2px;}
+
+.grxx{color:#e4f70e; float:left; font-weight:bold; display:inline-block; margin-left:15px; margin-right:10px;}
+
+
+.usermsg a:link,.usermsg a:visited{COLOR: #FFFFFF;TEXT-DECORATION: none}	
+.usermsg a:hover{COLOR: #FFFF00;TEXT-DECORATION: none}
+
+.gbtn {width:50%;padding-right:5px; display:inline-block;float:right; text-align:right;}
+.gbtn a{margin-right:12px;}
+
+
+.rightTable{width:100%; /*border:1px solid #dfdfdf;*/}
+
+.gmap{width:100%; height:35px;/*line-height:35px; */ 
+	background: url(../images/nav2.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/nav2.gif*/ left top  repeat-x #ffffff;
+}
+
+.stxt01{  display:inline-block; margin-top:10px; width:60%;background: url(../images/dot1.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/dot1.gif*/ no-repeat;  margin-left:11px; padding-left:16px;  clear:both; }
+.stxt01 a:link{color:#000000;}
+.stxt01 a:hover{color:#ff6600;}
+.stxt01 img{margin-left:8px; margin-right:8px;}
+
+.contentshow{width:96%; margin:0 auto; }
+.content2{width:96%; margin:0 auto; margin-bottom:20px; }
+.contentTable{width:100%;}
+.leftmenu{ width:214px;/* height:644px;*/ background: url(../images/leftbg.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/leftbg.png*/ left top no-repeat #FFFFFF;}
+
+.menutitle{font-size:14px; font-weight:bold; color:#FFFFFF; line-height:42px; margin-left:15px; position:relative; }
+.menutitle a:link,.menutitle a:hover,.menutitle a:visited{color:#FFFFFF;TEXT-DECORATION:none;}
+.fav{ display:none;width:40px; height:40px;position:absolute;right:10px; top:-8x; *top:-15px; text-align:right;}
+.leftpage{margin-left:1px; width:212px; height:630px;}
+
+.menu  ul{margin:0px; padding:0px; width:212px;}
+.menu  ul li{margin:0px; padding:0px;list-style:none; height:47px; background: url(../images/menubg01.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/menubg01.png*/ left top;cursor:pointer;}
+.mapban{margin:0;padding:0;}
+.mapban img{margin:0 8px;vertical-align:middle;}
+.n_normal{background: url(../images/menubg01.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/menubg01.png*/ left top;}
+.menu  ul li.n_selected {
+		   background: url(../images/menubg03.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/menubg03.png*/ left top; 
+		   }
+.menu  ul li.n_selected a{color:#000;}
+.menu  ul li.n_hover {
+		   background: url(../images/menubg02.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/menubg02.png*/ left top;
+		   }		   
+.simg{width:44px; display:inline-block; float:left;margin-left:12px;}
+.simg img{margin-top:3px;}
+.stxt{line-height:47px; font-size:14px; font-weight:bold;}
+.stxt a:link,.stxt a:hover,.stxt a:visited{ COLOR: #555555; TEXT-DECORATION: none;}
+.stxt01 a:link,.stxt01 a:hover,.stxt01 a:visited {TEXT-DECORATION: none;}
+
+.mheight{height:598px;}
+
+.newmsg{width:100%; margin:5px auto;  margin-bottom:12px;  height:45px; background:#f8fcfe; /**f9f9f9**/border:1px solid #c4ebf8;/**dfdfdf**/}
+
+.newmsgtxt{width:90%; margin:15px auto;}
+
+.msgspan{ display:inline-block; float:left; padding-left:20px; padding-right:20px; font-size:13px;}
+.newmsgtxt span H4{width:20px; display:inline-block;}
+.msgspan a:link,.msgspan a:visited,.msgspan a:hover{  TEXT-DECORATION:none;}
+.msgspan a:hover{color:#ff6600; TEXT-DECORATION:none;}
+
+.stab01 {width:100%; margin:0 auto;}
+.stab01 UL{margin:0px; padding:0px; height:30px; }
+.stab01  UL LI{margin:0px; padding:0px;list-style:none; height:30px; width:100px; display:inline-block; float:left; margin-right:6px; background:#cccccc; }
+.stab01  UL LI a:link,.stab01  UL LI a:hover,.stab01  UL LI a:visited{width:100%; height:100%;  display:block; line-height:30px; text-align:center; font-size:14px;TEXT-DECORATION: none;}
+.w_normal a:link,.w_normal a:visited,.w_normal a{background:url(../images/tab01.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/tab01.png*/ left top no-repeat; color:#338ede; }
+.w_selected a,.w_selected a:link,.w_selected a:visited{background:url(../images/tab02.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/tab02.png*/ left top no-repeat; color:#ffffff;}
+.w_normal a:hover{background:url(../images/tab03.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/tab03.png*/ left top no-repeat; color:#038cdc;}
+.w_selected2{background:url(../images/tab04.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/tab04.png*/ left top no-repeat; color:#ffffff;}
+.w_selected2 a{background:url(../images/tab04.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/tab04.png*/ left top no-repeat; color:#fff;}
+
+.stab01  UL LI a{position:relative;}
+.stab01  UL LI a .attrowrd{position:absolute;right:-6px;top:-10px;background:url(../images/smsbg2.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/smsbg2.png*/;width:24px;height:24px;color:#fff;font-size:12px;line-height:24px;text-align:center;}
+
+.sg_title{line-height:30px; font-weight:bold; font-size:14px; }
+
+/**数据查询CSS 开始**/
+.divmain{height:200px;overflow:hidden;position:relative;border:1px dotted #dfdfdf;background:#fff;}
+.sgroupCont{width:100%; margin:0 auto;margin-top:10px;position: relative;}
+.sgroup{width:100%; margin:0 auto;margin-top:10px;}
+.sro-area{position:fixed;right:18px;top:120px;height:140px;width:40px;overflow:hidden;z-index:999;display:none;}
+.sro-area #btn-prev{background:url(../images/sro-prex.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/sro-prex.gif*/ no-repeat;width:40px;height:45px;cursor:pointer;border:none;float:left;}
+.sro-area #btn-next{background:url(../images/sro-next.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/sro-next.gif*/ no-repeat;width:40px;height:45px;cursor:pointer;border:none;float:left;}
+.sro-area #srotest{background:url(../images/sro-text.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/sro-text.gif*/ no-repeat;width:40px;height:50px;color:#fff;margin:0;padding:0;float:left;text-align:center;line-height:50px;font-size:14px;font-weight:bold;}
+.divmain .disabledsro{filter:Alpha(Opacity='60');opacity: 0.6;}
+
+.tr01 td{background:#f9f9f9;border-bottom:1px solid #dfdfdf;}
+.tr02 td{background:#ffffff;border-bottom:1px solid #dfdfdf;}
+.trbg0 td{ background:url(../images/trbg0.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/trbg0.png*/ repeat-x; text-align:center;}
+.querytable{ width:100%; border-left:1px solid #dfdfdf;  border-right:1px solid #dfdfdf; border-top:1px solid #dfdfdf;}
+.querytable td{height:28px; padding-left:3px; padding-right:3px; text-align:center;}
+
+
+.ntxt{color:#038cdc;}
+.str01 td{background:#f9f9f9;}
+.str02 td{background:#ffffff;}
+.querytable2{background:#dfdfdf; width:100%}
+.querytable2 td{font-size:12px; height:30px; padding-left:3px; padding-right:3px; }
+
+.edmsg{width:100%; margin-top:}
+
+.str{color:#fe8200; padding:5px;}
+.cell01{text-align:right;}
+
+.querytable3{background:#c4ebf8; width:100%}
+.querytable3 td{ font-size:12px; height:24px; padding-left:3px; padding-right:3px; text-align:center }
+.ztr00{background:#f8fcfe; color:#038cdc;}
+.ztr00 td{text-align:center}
+.ztr02{background:#FFFFFF; }
+
+
+
+
+.querytable4{background:#dddddd; width:100%}
+.querytable4 TH{height:24px; font-size:12px; font-weight:normal; background:#fbfbfb;  text-align:left; padding-left:8px;}
+.querytable4 td{height:24px;font-size:12px; padding-left:8px; padding-right:3px; text-align:left;   background:#ffffff;}
+.querytable4 .querytabtitle{background:#f8f8f8;}
+.ctr00{background:#f8fcfe; color:#038cdc; }
+.ctr00 td{text-align:center}
+.ctr02{background:#FFFFFF; }
+
+.footer{/*margin-top:10px;padding:15px 0;*/clear:both;border-top:2px solid #009aef;text-align:center;color:#024d93;}
+.footer p{margin:8px 0;}
+.footer a{color:#024d93;}
+/**数据查询CSS End**/
+
+.buttonline{ width:100%; margin-top:10px; margin-bottom:10px; text-align:center;}
+
+.btn00{background:url(../images/btn00.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn00.gif*/ no-repeat;  width:66px;  line-height:25px; color:#ffffff; font-weight:bold; height:25px; font-size:14px; cursor:pointer; border:0px;backgruond:#348fde; }
+.btn00:hover{background:url(../images/btn02.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn02.gif*/ no-repeat;  width:66px;  line-height:25px; color:#ffffff; font-weight:bold; height:25px; font-size:14px; cursor:pointer; border:0px;backgruond:#348fde;}
+
+.gNextline{width:100%; height:40px; text-align:center; background:#f8f8f8; border:1px solid #EEEEEE}
+
+
+.btnNext{
+	background:url(../images/btn03.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn03.gif*/ no-repeat #348fde;  
+	width:108px;  line-height:30px; 
+	color:#ffffff; font-weight:bold; 
+	height:30px; font-size:14px;
+	cursor:pointer; border:0px; margin-top:5px; margin-right:8px; }
+
+.btnNext:hover{
+	background:url(../images/btn05.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn05.gif*/ no-repeat #348fde;  
+	width:108px;  line-height:30px; 
+	color:#ffffff; font-weight:bold; 
+	height:30px; font-size:14px;
+	cursor:pointer; border:0px; margin-top:5px; margin-right:8px;}
+		
+
+.btnNext_grey{
+	background:url(../images/btn04.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn04.gif*/ no-repeat #eeeeee;  
+	width:108px;  line-height:30px; 
+	color:#acacac; font-weight:bold; 
+	height:30px; font-size:14px;
+	cursor:pointer; border:0px; margin-top:5px; margin-right:8px; }
+	
+.carimg img{height:50px; }	
+.carmsg{text-align:center; }	
+.dline{border-top:1px solid #c4ebf8; height:10px; margin-top:10px; width:100%; overflow:hidden;clear:both;}
+
+.dline2{background:url(../images/dotline2.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/dotline2.gif*/ repeat-x left top;    height:10px; margin-top:10px; width:100%; overflow:hidden;clear:both;}
+.clist span{display:inline-block; margin-right:30px; line-height:30px;  }
+
+.moremsg{margin-top:5px; }
+
+.tipstitle{width:100%; height:30px;  line-height:30px; background:url(../images/tipsTbg.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/tipsTbg.gif*/ repeat-x; border:1px solid #dfdfdf;}
+.tipstitle span{display:inline-block; margin-left:10px;}
+.ncolor{color:#ff6600; width:20px; text-align:center; display:inline-block;}
+.dcolor{color:#ff6600; }
+.searchtb{margin-bottom:10px;}
+
+.ainput{border:1px solid #b0d1d9; height:21px; line-height:21px; padding-left:3px;background:url(../images/inputbg.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/inputbg.gif*/ repeat-x; margin-right:20px;}
+
+.btnlong{background:url(../images/btn09.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn09.gif*/ no-repeat;  width:160px;  line-height:28px; color:#ffffff; font-weight:bold; height:28px; font-size:14px; cursor:pointer; border:0px;backgruond:#348fde;}
+.btnlong:hover{background:url(../images/btn092.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn092.gif*/ no-repeat;  width:160px;  line-height:28px; color:#ffffff; font-weight:bold; height:28px; font-size:14px; cursor:pointer; border:0px;backgruond:#348fde;}
+
+.historyList{width:100%; display:block;text-align:right;margin-top:10px;}
+/**新增加add by yp**/
+.sred{color:#FF0000;}
+.ared1{color:#FF0000;}
+.ared2{color:#FF0000;}
+.ared3{color:#FF0000;}
+.ared4{color:#FF0000;}
+.cardetailtable1 .sred{color:#FF0000;}
+/*add by zhc*/
+/*input{
+	blur:expression(this.blur());
+	outline:none;
+}*/
+input.editor-field:focus{
+	border: 1px solid #78A5D9;
+}
+input.bottomButton{
+	background:url(../images/btn03.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn03.gif*/ no-repeat #348fde;  
+	width:108px;  
+	line-height:30px; 
+	color:#ffffff; 
+	height:30px; font-size:14px; font-weight:bold;
+	cursor:pointer;
+    border:0px;
+	margin:5px 0;
+	left: 150px;
+	position:relative;
+}
+
+input.bottomButton:hover{
+	background:url(../images/btn05.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn05.gif*/ no-repeat #348fde;
+}
+span.leftInfo{
+    font-size: 13px;
+    left: 10px;
+    position: relative;
+    line-height: 25px;
+}
+.leftInfo{color:#038cdc;}
+
+div.buttonBar {
+  display:block; 
+  clear:both;
+  margin:30px 0 0 0;   
+  border:1px solid #EEEEEE;
+  padding:0px 190px 0px 0px;    
+  color:#5A5655;   
+  background-color:#F8F8F8;
+  height:40px;
+  text-align:left;
+  overflow:auto;    
+  z-index:88; 
+  left:0;
+}
+div.stepContent{
+	height:440px
+}
+div.stepContent2{
+	height:360px
+}
+div.noticeContent{
+	height:340px;border:1px solid #fff;
+	overflow:auto; zoom:1;
+}
+.noticeContent p{line-height:24px;margin:0 5px 0 0;padding:0;}
+#title h4{margin:0 0 8px 0;padding:0;overflow:hidden;zoo:1;}
+div.noticeContent2{
+	height:260px;
+	overflow:auto;
+}
+div.readContent{
+	width:100%;
+	margin-top:-2px;
+	position: absolute;
+    bottom:10px;
+}
+div.readContent input{
+	margin-left:320px;vertical-align:middle;
+}
+div.readContent span{
+	diaplay:none;
+	margin-left:15px;
+	color:red;
+}
+table.licenseContentTable{
+	border-collapse:collapse;
+	margin-top:20px;
+}
+table.licenseContentTable td{
+	height:26px;
+	padding-left:6px;
+	border:1px solid #ccc;
+}
+td.backColor{
+	background:none repeat scroll 0 0 #E5F6FD;
+	text-align:right;
+	padding-right:6px;
+}
+td.strong{
+	color:#038CDC;
+}
+.rcolor A:link {	COLOR: red; TEXT-DECORATION: none}
+.rcolor A:hover {	COLOR: red; TEXT-DECORATION: underline}
+.rcolor A:visited {	COLOR: red; TEXT-DECORATION: none}
+/*end add*/
+
+/**add局长邮箱 公告栏（最新通告） 有关CSS begin**/
+.querytable5{ width:100%; background:#dfdfdf; border-left:1px solid #dfdfdf;  border-right:1px solid #dfdfdf; border-top:1px solid #dfdfdf;}
+.querytable5 td{height:28px; padding-left:3px; padding-right:3px; text-align:center;}
+.querytable5 td a{TEXT-DECORATION: none;}
+.querytable5 td a:hover{TEXT-DECORATION: none; color:#FF6600;}
+
+.pagetitle{color:#038cdc; font-size:14px;font-weight:bold;line-height:20px;text-align:center;}
+.pagetitlemsg{margin:0 auto;font-size:12px;line-height:25px;text-align:center; color:#666666; margin-bottom:10px; width:90%; border-top:1px solid #cccccc;}
+.pagetitlemsg span{;margin-right:20px;}
+
+
+
+.contxt{width:90%;margin:0 auto;font-size:13px;line-height:150%;margin-bottom:20px; }
+.send{width:100%; height:40px; text-align:center; margin-top:20px;}
+.smail2{margin-left:2px;margin-top:3px;}
+
+
+/**add局长邮箱 公告栏（最新通告） 有关CSS END**/
+
+.addr{width:100%;line-height:25px; margin-top:6px;margin-bottom:6px;}
+legend{color:#038cdc;}	/*提交资料标题全局颜色*/
+.wxtips{color:#038cdc;} /*温馨提醒字颜色*/
+
+.bgwhite{background:#fff;}
+
+.user-tabul{overflow:hidden; list-style:none;width:100%;margin:0;padding:0;}
+.user-tabul li{float:left;margin:0 2px 0 0;background:url(../images/tab01.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/tab01.png*/ left top no-repeat;width:100px;height:27px;text-align:center;line-height:30px;font-weight:bold;color:#333;cursor:pointer;}
+.usercont{width:100%;margin:0 auto;border-top:2px solid #338ede;}
+.attention{margin-left:18px;color:#999;}
+.userinfo-tab{width:100%;}
+.user-tabul li.tabtitleon{background:url(../images/tab02.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/tab02.png*/ left top no-repeat;color:#fff;}
+.userinfo-tab{margin:10px 0;/*width:70%;*/color:#333;}
+.userinfo-tab td{line-height:30px;}
+.userinfo-tab td.ctitle{text-align:right;padding:0 12px 0 0;color:#038cdc;}
+.adress h2{border-bottom:1px solid #ddd;font-size:12px;margin:8px 0;color:#3171ba;margin:10px 15px; padding:5px 15px;background:url(../images/dot3.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/dot3.gif*/ no-repeat left center;overflow:hidden;}
+.adress .adresscont div{margin:10px 30px;}
+.add-adress{background:url(../images/btnaddadress.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btnaddadress.gif*/ no-repeat;width:80px;height:25px;border:none;cursor:pointer;color:#fff;text-align:left;*text-indent:10px;vertical-align:middle;margin:0 0 10px 30px;}
+.add-alone{background:url(../images/add-alone.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/add-alone.gif*/ no-repeat;width:100px;height:25px;border:none;cursor:pointer;color:#fff;text-align:left;vertical-align:middle;}
+.modifypwd{margin:0px 0;width:60%;}
+.modifypwd td{line-height:35px;}
+.modifypwd td.ctitle{text-align:right;padding:0 12px 0 0;color:#666;}
+.modifypwd td .inpwd{border:1px solid #c2c2c2;height:20px;line-height:20px;}
+.modifypwd td .inpwd.borgrey{border:1px solid #c2c2c2;}
+.modifypwd td .inpwd.borblue{border:1px solid #4984b9;}
+.btn-com{background:url(../images/btn00.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn00.gif*/ no-repeat;  width:66px;  line-height:25px; color:#ffffff; font-weight:bold; height:25px; font-size:12px; cursor:pointer; border:0;backgruond:#5387b5; margin:10px 0;}
+.tabcont{margin:10px 0;}
+.insertadressbor div{margin-left:30px;}
+
+.addcar1{width:100%;line-height:38px;margin:15px 0;border:1px solid #7da7ca;/*border-width:1px 1px 0 1px;*/background:#f6fafe;}
+.addcar1 tr.oddbg{background:#f1f9ff;}
+.addcar1 td{/*border-bottom:1px solid #7da7ca;*/color:#555;}
+.add-inp1{border:1px solid #c2c2c2;width:80%;line-height:18px;height:20px;}
+.add-inp1on{border:1px solid #7da7ca;width:80%;line-height:18px;height:18px;}
+.addcar1 label{display:block;padding-right:10px;text-align:right;}
+.dis-mar{display:block;margin:0 auto;}
+.hidden{display:none;}
+
+.carbor{border-bottom:1px dotted #c2c2c2;/*background:url(../images/carborbg.gif) left bottom repeat-x;*/color:#333;padding:8px 15px 10px;margin:9px 10px 0;*margin:5px 10px 0;position:relative;}
+.carbor.odd{border-bottom:1px dotted #aad0eb;background:#fff;/*background:#f8fdff;*//*background:url(../images/carborbg2.png) left bottom repeat-x;*/}
+.carbor .carimgbg{background:url(../images/carimgbg.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/carimgbg.gif*/ no-repeat; width:107px;height:72px;cursor:pointer;}
+.carbor .carimgbg img{margin:5px 6px;border:1px solid #ddd;}
+.carbor ul{margin:-2px 0 0 10px;padding:0; list-style:none;}
+.carbor li{padding:0;margin:0;}
+.carbor li span{color:#3771b3;line-height:24px;text-align:right;padding-right:8px;width:72px;display:inline-block;}
+.carbor font{font-size: 12px;}
+.btn-blue{background:url(../images/btn-blue.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn-blue.gif*/ no-repeat;width:72px;height:30px;border:none;cursor:pointer;color:#333;margin:4px 0;}
+.btn-bluebd{background:url(../images/btn-blue.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn-blue.gif*/ no-repeat;width:72px;height:28px;border:none;cursor:pointer;color:#333;}
+.btn-orange{background:url(../images/btn-orange.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn-orange.gif*/ no-repeat;width:70px;height:28px;border:none;cursor:pointer;color:#fff;margin:4px 0;font-weight:bold;}
+.cardetail{border-top:1px solid #c2c2c2;margin-top:8px;padding-top:6px;display:none;}
+.esleline{border-top:1px solid #c2c2c2;margin-top:8px;padding-top:8px;}
+.carbor .funum{height:19px; position:absolute;left:95px;top:8px;color:#fff;overflow:hidden;width:40px;}
+.carbor .funum .funuml{background:url(../images/funuml.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/funuml.png*/ no-repeat;width:18px;height:19px;float:left;}
+.carbor .funum .funumm{background:url(../images/funumm.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/funumm.png*/ repeat-x;/*float:left;*/float:left;height:19px;width:20px; font-weight:bold;padding-left:1px;padding-top: 0px;padding-bottom: 0px;padding-right: 0px}
+.carbor .funum .funumr{background:url(../images/funumr.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/funumr.png*/ no-repeat;width:5px;height:19px;float:right;}
+.carbor .tab-infor{position:absolute;left:108px;top:30px;background:url(../images/tab-infor.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/tab-infor.png*/ no-repeat;width:336px;height:52px;display:none;}
+.carbor .tab-infor table{margin:4px 0 0 20px;width:90%;line-height:22px;}
+.cbule{color:#0d6fae;}
+
+.cardetailtable1{width:100%;}
+.cardetailtable1 td{color:#555;line-height:20px;}
+.cardetailtable1 .cdtitle{padding-right:10px;text-align:right;color:#333;}
+.drivingbor{line-height:26px;}
+.drivingbor .dtitle{color:#3771b3;text-align:right;padding-right:4px;}
+.disabled{filter:Alpha(Opacity='40');opacity: 0.4;}
+.disabled2{filter:Alpha(Opacity='40');opacity: 0.4;display:none;}
+
+#l-map{height:100%;width:78%;float:left;border-right:2px solid #bcbcbc;}
+#r-result{height:100%;width:20%;float:left;}
+
+
+.manage{background:url(../images/btn10.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn10.gif*/ no-repeat;border:none;cursor:pointer;width:56px;height:23px;color:#333;font-weight:nomal;}
+.manage2{background:url(../images/btn10two.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn10two.gif*/ no-repeat;border:none;text-align:center;width:56px;height:23px;line-height:23px;color:#333;font-weight:nomal;}
+.btn-blue4{background:url(../images/btn-blue4.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn-blue4.gif*/ no-repeat;border:none;cursor:pointer;width:100px;height:24px;vertical-align:middle;}
+.btn-blue2{background:url(../images/btn-blue2.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn-blue2.gif*/ no-repeat;border:none;cursor:pointer;width:60px;height:26px;}
+.btn-myhome{background:url(../images/btn-myhome.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn-myhome.gif*/ no-repeat;border:none;cursor:pointer;width:66px;height:22px;line-height:22px;color:#333;vertical-align:middle;margin-right:6px;}
+.btn-myhomeon{background:url(../images/btn-myhomeon.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn-myhomeon.gif*/ no-repeat;border:none;cursor:pointer;width:66px;height:22px;line-height:22px;color:#333;vertical-align:middle;}
+.btn-weihu{background:url(../images/btn-weihu.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn-weihu.gif*/ no-repeat;border:none;cursor:pointer;width:96px;height:22px;line-height:22px;color:#333;vertical-align:middle;margin-right:6px;}
+.btn-weihuon{background:url(../images/btn-weihuon.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn-weihuon.gif*/ no-repeat;border:none;cursor:pointer;width:96px;height:22px;line-height:22px;color:#333;vertical-align:middle;}
+
+.mapbanbg{background:url(../images/mapbanbg.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/mapbanbg.gif*/ repeat-x;line-height:34px;color:#fff;}
+.mapbanbg a{color:#fff;text-decoration:none;}
+.mapmain{height:500px;margin:12px 0 0 0;width:100%;}
+.mapmain .sidedetail{width:200px;}
+.map-nav{list-style:none;margin:0;padding:0;}
+.map-nav li{color:#555;cursor:pointer;font-size:14px;border:1px solid #ddd;margin:0 0 6px;line-height:36px;text-align:center;background:url(../images/mapnavcom.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/mapnavcom.gif*/ repeat-x;}
+.map-nav li.navhover{border:1px solid #15a4d0;line-height:36px;text-align:center;background:url(../images/mapnavnhover.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/mapnavnhover.gif*/ repeat-x;}
+.map-nav li.navon{color:#fff;font-weight:bold;border:1px solid #15a4d0;line-height:36px;text-align:center;background:url(../images/mapnavnon.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/mapnavnon.gif*/ repeat-x;}
+.map-content{border:1px solid #c2c2c2;margin-left:10px;overflow:hidden;height:500px;}
+/**切换Header CSS  begin**/
+.top_header01{width:1002px; height:300px;overflow:hidden; background:url(../images/header.jpg)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/header.jpg*/; position:relative; border-bottom:2px solid #009ff0;}
+.top_header01 img{position:absolute; bottom:8px; right:6px;}
+
+.top_header02{width:1002px; /*height:158px;*/ height:120px;overflow:hidden; background:url(../images/header2.jpg)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/header2.jpg*/ left top; position:relative; border-bottom:2px solid #009ff0;}
+.top_header02 img{position:absolute; bottom:8px; right:6px;}
+
+.top_header03{width:1002px;height:18px;text-align:center;padding-top:3px;}
+.top_header03 img{}
+
+.btn-tab{background:url(../images/btn06.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn06.gif*/ no-repeat;border:none;cursor:pointer;}
+.btn-orgup{background:url(../images/btn-orangeup.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn-orangeup.gif*/ no-repeat;border:none;cursor:pointer;height:28px;width:70px;}
+.btn-orgdown{background:url(../images/btn-orangedown.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn-orangedown.gif*/ no-repeat;border:none;cursor:pointer;height:28px;width:70px;}
+
+.wkt-defau{border:1px solid #aad0eb;margin-top:10px;font-size:14px;background:#fcfdfe;width:100%;}
+.wkt-defaucont{background:url(../images/traffic-police.png) 40px no-repeat;padding:90px 0 100px 140px;text-align:center;color:#555;font-size:14px;}
+.wkt-defaucont h2{color:#0868a0;font-weight:normal;font-family:'微软雅黑';font-size:24px;}
+.wkt-bor{border:3px solid #ebf6fd;padding:180px 200px;}
+.wkt-defaucont2{background:url(../images/access-dis.jpg) 10px 30px no-repeat;padding:100px 0 130px 140px;text-align:center;color:#555;font-size:14px;}
+.wkt-defaucont2 h2{color:#0868a0;font-weight:normal;font-family:'微软雅黑';font-size:24px;}
+
+.subtabul{border-bottom:1px solid #62acf8;}
+.tabulbg{border-bottom:2px solid #338ede;}
+.myhome-toal{padding:10px 15px;background:#f4fbfe;}
+.stab02{background:url(../images/myhome_tabbg.gif) repeat-x;width:4px;height:35px;border:1px solid #d1e6f1;width:100%; margin:0 auto;}
+.stab02 li{color:#333;margin:0px; padding:0px;list-style:none; height:30px;width:100px; display:inline-block; float:left; margin-right:6px;}
+.stab02 UL{margin:0px; padding:0px; height:30px; }
+.stab02  UL LI{margin:0px; padding:0px;list-style:none; height:30px; width:100px; display:inline-block; float:left; margin-right:6px; background:#cccccc; }
+.stab02  UL LI a:link,.stab01  UL LI a:hover,.stab01  UL LI a:visited{width:100%; height:100%;  display:block; line-height:30px; text-align:center; font-size:14px;TEXT-DECORATION: none;}
+
+/*-- UserMsg --*/
+.prompt-msg{border:1px solid #aad0eb;background:#fcfdfe;color:#333;margin:0 20px;}
+.prompt-msg .inbor{border:3px solid #ebf6fd;padding:4px 30px;background:url(../images/prompt-ghh.png) 6px 3px no-repeat;}
+.msgwaiting{z-index: 1200;margin-top: 200px;margin-left: 300px;position: absolute;background:url(../images/waiting.gif) no-repeat;width:32px;height: 32px }
+
+
+/*-- examNumber --*/
+.infor-tab1{border:1px solid #ccc;line-height:36px;width:100%;margin:10px 0;}
+.infor-tab1 td{/*background:#fff;*/text-indent:6px;color:#333;}
+.infor-tab1 label{display:block;text-align:right;padding-right:8px;color:#1772b2;}
+.mar10{margin:10px 0;}
+.yktip{color:#2f8aca;margin:10px auto;text-align:left;font-size: 13px;line-height: 20px;}
+.alert-tip{border:1px solid #a4cbe6;background-color:#f8f8f8;}
+.padbor{border:2px solid #d9e7f0;padding:10px;}
+.padbor h3{text-align:center;font-size:14px;line-hegiht:30px;color:#f60;}
+.padbor p{text-indent:24px;}
+.yuekao{text-align:center;font-size:12px;line-hegiht:30px;color:#0a5ea5;font-weight:bold;margin:0;}
+.cyellow{font-size:14px;color:#0A5EA5;margin:0 6px;}
+
+.btnlong2{line-height:36px;font-weight:bold;font-size:14px;color:#fff;background:url(../images/yuekaobtn.gif) no-repeat;width:120px;height:36px;border:none;cursor:pointer;}
+.stepContent h2{border-bottom:1px solid #5ba4dc;padding-bottom:4px;margin:10px 0;color:#1e6ca8;font-size:12px;}
+
+.adresslist{width:96%;margin:0 auto;background:#c2c2c2;margin-top:8px;}
+.adresslist th{color:#333;background:url(../images/mapnavcom.gif) repeat-x;line-height:26px;}
+.adresslist td{background:#fff;line-height:24px;text-indent:10px;color:#555;}
+.btnlong2{background:url(../images/exam/yuekaobtn.gif) no-repeat;border: medium none;color: #000000;cursor: pointer; display: block;font-size: 14px; font-weight: bold; height: 45px;line-height: 16px;padding-top: 3px;width: 120px;}
+.stepContent h2{border-bottom:1px solid #5ba4dc;padding-bottom:4px;margin:10px 0;color:#1e6ca8;font-size:12px;}
+.btnlongGray{background:url(../images/exam/yuekaobtngrey.gif) no-repeat;}
+
+.wkt-defaucont2{background:url(../images/access-dis.jpg) 80px 60px no-repeat;padding:130px 300px 130px 140px;text-align:center;color:#555;font-size:14px;}
+.wkt-defaucont2 h2{color:#0868a0;font-weight:normal;font-family:'微软雅黑';font-size:24px;}
+.spanType{font-family: '黑体';}
+.waitting{background: url('../images/waiting.gif') no-repeat;width: 32px;height: 32px;}
+.sms03{position: absolute;z-index: 68;margin-top: 240px;margin-left:330px;}

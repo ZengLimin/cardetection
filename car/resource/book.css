@@ -1,0 +1,125 @@
+
+.gNextline{width:100%; height:40px; text-align:center; background:#f8f8f8; border:1px solid #EEEEEE}
+
+
+.btnNext{
+	background:url(../images/btn03.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn03.gif*/ no-repeat #348fde;  
+	width:108px;  line-height:30px; 
+	color:#ffffff; font-weight:bold; 
+	height:30px; font-size:14px;
+	cursor:pointer; border:0px; margin-top:5px; margin-right:8px; }
+
+.btnNext:hover{
+	background:url(../images/btn05.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn05.gif*/ no-repeat #348fde;  
+	width:108px;  line-height:30px; 
+	color:#ffffff; font-weight:bold; 
+	height:30px; font-size:14px;
+	cursor:pointer; border:0px; margin-top:5px; margin-right:8px;}
+		
+
+.btnNext_grey{
+	background:url(../images/btn04.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/images/btn04.gif*/ no-repeat #eeeeee;  
+	width:108px;  line-height:30px; 
+	color:#acacac; font-weight:bold; 
+	height:30px; font-size:14px;
+	cursor:pointer; border:0px; margin-top:5px; margin-right:8px; }
+
+.cj_Table *{font-size:14px;}
+.cj_Table{background:#dddddd; margin:0 auto; margin-bottom:50px;}
+.cj_Table TD{height:45px;}
+
+.cj_Table TH{height:25px;width:35%; background:#fbfbfb; font-weight:normal; text-align:right; }
+.cj_Table TD{height:25px;text-align:center; background:#fbfbfb;padding:3px; text-align:left;border:1px solid #bbbbbb;}
+
+.input_cj{border:1px solid #bbbbbb; background:url(../resource/cj_inputbg.png) repeat-x #FFFFFF; height:26px; line-height:30px;}
+
+.loginTips{ border:1px solid #bbbbbb; background:#fafafa; width:96%;margin:0 auto;  margin-top:10px;}
+.loginTips span{display:block;width:96%;margin:0 auto; line-height:30px; font-size:13px; }
+.loginTips span a{color:#ff6600; text-decoration:underline;}
+.newcolor {
+ color: #FF6600;
+}
+
+.mapban a:link {
+	COLOR: black;
+	TEXT-DECORATION: none
+}
+
+.mapban a:hover {
+	COLOR: black;
+	TEXT-DECORATION: underline
+}
+
+.mapban a:visited {
+	COLOR: black;
+	TEXT-DECORATION: none
+}
+
+#logout:link {
+	COLOR: black;
+	TEXT-DECORATION: none
+}
+
+#logout:hover {
+	COLOR: black;
+	TEXT-DECORATION: none
+}
+
+#logout:visited {
+	COLOR: black;
+	TEXT-DECORATION: none
+}
+
+input:focus, select:focus {
+	outline-style: double;
+	outline-width: 1px;
+	outline-color: #7eeefa;
+}
+
+.input_cj {
+	padding-left: 2px;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.checkboxStyle {
+	position: relative;
+	top: 2px;
+}
+
+.cj_Table {
+	margin-bottom: 40px;
+	width: 90%;
+}
+
+#waiting {
+	position: fixed;
+	_position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 124px;
+	height: 124px;
+	overflow: hidden;
+	background: url(../images/waiting.gif)
+		/*tpa=http://www.gzjd.gov.cn/vehinspection/images/waiting.gif*/  
+		 no-repeat;
+	z-index: 7000;
+	margin: -47px 0 0 0px;
+}
+
+.notes {
+	margin-left: 112px;
+	margin-bottom: 30px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+#lj {
+	font-size: 12px;
+}
+
+.vcode_img {
+	position: relative;
+	top: 6px;
+	left: 4px;
+}

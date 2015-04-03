@@ -1,0 +1,141 @@
+@CHARSET "UTF-8";
+
+table.querytable { 
+	width: 100%;
+	border-left: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	border-top: 1px solid #dfdfdf;
+	font-size:12px;
+	border: 0;
+}
+
+.tr01 td {
+	background: #f9f9f9;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.tr02 td {
+	background: #ffffff;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.trbg0 td {
+	background: url(images/trbg0.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/js/jquery-queryTable/images/trbg0.png*/ repeat-x;
+	text-align: center;
+	height: 30px;
+}
+
+.querytable td {
+	height: 28px;
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+}
+.trselect td{
+	background-color:#F8FCFE;
+}
+div.pDiv {
+	background: url(images/trbg0.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/js/jquery-queryTable/images/trbg0.png*/ repeat-x 0 -1px;
+	border-bottom: 1px solid #DFDFDF;
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+	font-size: 13px;
+	height:25px;
+	line-height:20px;
+	zoom:1;
+	bottom:0;
+	left:0;
+}
+
+div.pDiv div.pDiv2 {
+	float: left;
+	width: 100%;
+}
+
+div.pGroup {
+	float: left;
+	background: none;
+	height: 24px;
+	margin: 0 5px
+}
+.queryTableContain{
+	background:url("images/waiting.gif")/*tpa=http://www.gzjd.gov.cn/vehinspection/js/jquery-queryTable/images/waiting.gif*/ no-repeat scroll center center transparent;
+	height:100%;
+}
+.queryTableContain div.pDiv .pPageStat,.queryTableContain div.pDiv .pcontrol {
+	position: relative;
+	top: 5px;
+	overflow: visible
+}
+
+.queryTableContain div.pDiv input {
+	vertical-align: text-top;
+	position: relative;
+	top: -5px
+}
+
+.queryTableContain div.pDiv div.pButton {
+	float: left;
+	width: 22px;
+	height: 25px;
+	border: 0;
+	cursor: pointer;
+	overflow: hidden
+}
+
+.queryTableContain div.pDiv div.pButton:hover,.queryTableContain div.pDiv div.pButton.pBtnOver
+	{
+	width: 20px;
+	height: 23px;
+	border: 1px solid #ccc;
+	cursor: pointer
+}
+
+.queryTableContain div.pDiv div.pButton span {
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: left
+}
+
+.queryTableContain div.pDiv div.pButton:hover span,.queryTableContain div.pDiv div.pButton.pBtnOver span
+	{
+	width: 19px;
+	height: 19px;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff
+}
+
+.queryTableContain .pSearch {
+	background: url(images/magnifier.png)/*tpa=http://www.gzjd.gov.cn/vehinspection/js/jquery-queryTable/images/magnifier.png*/ no-repeat center
+}
+
+.queryTableContain .pFirst {
+	background: url(images/first.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/js/jquery-queryTable/images/first.gif*/ no-repeat center
+}
+
+.queryTableContain .pPrev {
+	background: url(images/prev.gif)/*tpa=http://www.gzjd.gov.cn/vehinspection/js/jquery-queryTable/images/prev.gif*/ no-repeat center
+}
+
+.queryTableContain .pNext {
+	background: url(images/next.gif) no-repeat center
+}
+
+.queryTableContain .pLast {
+	background: url(images/last.gif) no-repeat center
+}
+
+.queryTableContain .pReload {
+	background: url(images/load.png) no-repeat center
+}
+
+.queryTableContain .pReload.loading {
+	background: url(images/load.gif) no-repeat center
+}
+
+.queryTableContain.ie div.hDiv th div,.queryTableContain.ie div.bDiv td div,div.colCopy.ie div
+	/* common inner cell properties*/ {
+	overflow: hidden
+}
