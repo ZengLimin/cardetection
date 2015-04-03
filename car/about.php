@@ -10,8 +10,7 @@
     <meta name="keywords" content="关键词">
 
     <link rel="stylesheet" href="./resource/base.pc.css" type="text/css">
-    <link rel="stylesheet" href="./resource/1266_zh-CN.css" type="text/css">
-    
+    <link rel="stylesheet" href="./resource/1266_zh-CN.css" type="text/css">    
         <script type="text/javascript" src="./resource/jquery-1.9.1.min.js"></script>
         <script type="text/javascript" src="./resource/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="./resource/public.common.min.js"></script>
